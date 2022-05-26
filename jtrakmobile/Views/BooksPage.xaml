@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:vm="clr-namespace:jtrakmobile.ViewModels"
+    xmlns:m="clr-namespace:jtrakmobile.Models"
+    x:DataType="vm:BooksViewModel"
+    x:Class="jtrakmobile.Views.BooksPage"
+    Title="My Book List">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="FrameCardViewStyle" TargetType="Frame">
+                <Setter Property="BackgroundColor" Value="#878A99" />
+                <Setter Property="CornerRadius" Value="2" />
+                <Setter Property="Margin" Value="5" />
+                <Setter Property="HasShadow" Value="False" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+            Text="Add"
+            Command="{Binding AddBookCommand}"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <CollectionView
+            x:Name="booksList"
+            SelectionMode="Single"
+            SelectionChangedCommand="{Binding ViewDetailsCommand}"
+            SelectionChangedCommandParameter="{x:Reference booksList}"
+            BackgroundColor="#DCDFEE"
+            ItemsSource="{Binding Books}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="m:Book">
+                    <StackLayout Spacing="8">
+                        <Frame Style="{StaticResource FrameCardViewStyle}">
+                            <StackLayout Orientation="Horizontal">
+                                <Image>
+                                    <Image.Source>
+                                        <FontImageSource
+                                            FontFamily="MaterialDesignIcons"
+                                            Color="#F7F8FC"
+                                            Glyph="{StaticResource Book}" />
+                                    </Image.Source>
+                                </Image>
+                                <StackLayout>
+                                    <Label
+                                        Text="{Binding Title}"
+                                        TextColor="#F7F8FC"
+                                        FontSize="18" />
+                                    <Label
+                                        Text="{Binding Author}"
+                                        TextColor="#F7F8FC"
+                                        FontSize="14" />
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </ContentPage.Content>
+</ContentPage>

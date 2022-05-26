@@ -1,0 +1,17 @@
+C:\Users\ryanfrago\source\repos\jtrakmobile\jtrakmobile\bin\Debug\netstandard2.0\jtrakmobile.deps.json
+C:\Users\ryanfrago\source\repos\jtrakmobile\jtrakmobile\bin\Debug\netstandard2.0\jtrakmobile.dll
+C:\Users\ryanfrago\source\repos\jtrakmobile\jtrakmobile\bin\Debug\netstandard2.0\jtrakmobile.pdb
+C:\Users\ryanfrago\source\repos\jtrakmobile\jtrakmobile\obj\Debug\netstandard2.0\jtrakmobile.csproj.AssemblyReference.cache
+C:\Users\ryanfrago\source\repos\jtrakmobile\jtrakmobile\obj\Debug\netstandard2.0\jtrakmobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ryanfrago\source\repos\jtrakmobile\jtrakmobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ryanfrago\source\repos\jtrakmobile\jtrakmobile\obj\Debug\netstandard2.0\Views\BookDetailsPage.xaml.g.cs
+C:\Users\ryanfrago\source\repos\jtrakmobile\jtrakmobile\obj\Debug\netstandard2.0\Views\BooksPage.xaml.g.cs
+C:\Users\ryanfrago\source\repos\jtrakmobile\jtrakmobile\obj\Debug\netstandard2.0\Views\NewBookPage.xaml.g.cs
+C:\Users\ryanfrago\source\repos\jtrakmobile\jtrakmobile\obj\Debug\netstandard2.0\jtrakmobile.AssemblyInfoInputs.cache
+C:\Users\ryanfrago\source\repos\jtrakmobile\jtrakmobile\obj\Debug\netstandard2.0\jtrakmobile.AssemblyInfo.cs
+C:\Users\ryanfrago\source\repos\jtrakmobile\jtrakmobile\obj\Debug\netstandard2.0\jtrakmobile.csproj.CoreCompileInputs.cache
+C:\Users\ryanfrago\source\repos\jtrakmobile\jtrakmobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ryanfrago\source\repos\jtrakmobile\jtrakmobile\obj\Debug\netstandard2.0\jtrakmobile.dll
+C:\Users\ryanfrago\source\repos\jtrakmobile\jtrakmobile\obj\Debug\netstandard2.0\refint\jtrakmobile.dll
+C:\Users\ryanfrago\source\repos\jtrakmobile\jtrakmobile\obj\Debug\netstandard2.0\jtrakmobile.pdb
+C:\Users\ryanfrago\source\repos\jtrakmobile\jtrakmobile\obj\Debug\netstandard2.0\ref\jtrakmobile.dll

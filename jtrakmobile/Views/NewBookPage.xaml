@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:vm="clr-namespace:jtrakmobile.ViewModels"
+    xmlns:m="clr-namespace:jtrakmobile.Models"
+    xmlns:prism="http://prismlibrary.com"
+    x:DataType="vm:NewBookViewModel"
+    x:Class="jtrakmobile.Views.NewBookPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView
+                x:Name="booksListView"
+                ItemsSource="{Binding SearchResults}">
+                <ListView.Behaviors>
+                    <prism:EventToCommandBehavior
+                        EventName="ItemSelected"
+                        Command="{Binding AddCommand}"
+                        CommandParameter="{x:Reference booksListView}"/>
+                </ListView.Behaviors>
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="m:Book">
+                        <TextCell
+                            Text="{Binding Title}"
+                            Detail="{Binding Author}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

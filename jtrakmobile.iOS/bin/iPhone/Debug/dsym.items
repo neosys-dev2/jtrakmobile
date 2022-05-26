@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_AppExtensionDebugSymbolProperties Include="jtrakmobile.iOS.app">
+      <NativeExecutable>jtrakmobile.iOS</NativeExecutable>
+      <NoDSymUtil>false</NoDSymUtil>
+      <NoSymbolStrip>false</NoSymbolStrip>
+      <SymbolsList>\Users\ryanfrago\Library\Caches\Xamarin\mtbs\builds\jtrakmobile.iOS\a0944eb918a1992bf56e863d496398737b3aa6be9cb28dbe7052b53a04f2bd2e\obj\iPhone\Debug\mtouch-symbols.list</SymbolsList>
+    </_AppExtensionDebugSymbolProperties>
+  </ItemGroup>
+</Project>
